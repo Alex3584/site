@@ -1,0 +1,80 @@
+.jost-text {
+  font-family: "Jost", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400px;
+  font-style: normal;
+}
+
+* {
+  margin: 0;
+}
+body {
+  font-family: "Jost", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+
+}
+
+ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+a {
+  text-decoration: none;
+  color: #333136;
+}
+.header {
+
+}
+
+.header .container {
+  height: 155px;
+}
+.container {
+  max-width: 1110px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  line-height: 0;
+}
+
+.logo-header {
+  width: 197px;
+  height: 27px;
+}
+.menu {
+  gap: 42px;
+}
+
+.menu a {
+  text-transform: uppercase;
+  font-size: 14px;
+  line-height: 14px;
+  letter-spacing: 2px;
+  transition: text-decoration-line 0.5s ease-in-out;
+}
+
+.menu a:hover {
+  text-decoration-line: underline;
+}
+
+.header_menu {
+}
+.main {
+
+  max-width: 1440px;
+}
+.container-bg {
+}
+.footer {
+  background-color: #1d1c1e;
+}
